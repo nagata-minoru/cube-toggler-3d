@@ -5,7 +5,6 @@
     "strict": true,
     "jsx": "preserve",
     "moduleResolution": "bundler",
-    "experimentalDecorators": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
