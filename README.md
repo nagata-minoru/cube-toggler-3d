@@ -20,6 +20,11 @@ yarn build
 yarn test
 ```
 
+### Type-checks files
+```
+yarn type-check
+```
+
 ### Lints files
 ```
 yarn lint
