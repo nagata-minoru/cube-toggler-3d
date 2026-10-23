@@ -1,7 +1,10 @@
 # cube-toggler-3d
 
 ## Project setup
+This project uses Yarn 4 via [Corepack](https://github.com/nodejs/corepack).
+On Node.js 25 or later, install Corepack first (`npm install -g corepack`).
 ```
+corepack enable
 yarn install
 ```
 
@@ -18,6 +21,11 @@ yarn build
 ### Runs unit tests
 ```
 yarn test
+```
+
+### Type-checks files
+```
+yarn type-check
 ```
 
 ### Lints files
