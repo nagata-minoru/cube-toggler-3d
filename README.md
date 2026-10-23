@@ -7,18 +7,23 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn dev
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production (outputs to `docs/`)
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### Runs unit tests
+```
+yarn test
+```
+
+### Lints files
 ```
 yarn lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Vite Configuration Reference](https://vite.dev/config/).
