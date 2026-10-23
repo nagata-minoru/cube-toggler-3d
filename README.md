@@ -35,7 +35,11 @@
 |---|---|
 | `src/components/CubeComponent.vue` | シーンの構築、アニメーション、衝突判定、操作パネル |
 | `tests/unit/CubeComponent.spec.ts` | `CubeComponent` のテスト (Vitest) |
-| `docs/` | GitHub Pages で公開するビルド成果物 |
+| `.github/workflows/ci.yml` | CI (lint・型チェック・テスト・ビルド) と GitHub Pages へのデプロイ |
+
+## デプロイ
+
+`main` ブランチに push すると、CI のチェックがすべて通った後に GitHub Actions が GitHub Pages へ自動でデプロイします。手動で再デプロイする場合は、Actions の CI ワークフローを `workflow_dispatch` で実行します。
 
 ## Project setup
 This project uses Yarn 4 via [Corepack](https://github.com/nodejs/corepack).
@@ -50,7 +54,7 @@ yarn install
 yarn dev
 ```
 
-### Compiles and minifies for production (outputs to `docs/`)
+### Compiles and minifies for production (outputs to `dist/`)
 ```
 yarn build
 ```
